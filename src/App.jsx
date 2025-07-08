@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./contexts/CartContext";
-import Header from "./components/common/Header";
-import Footer from "./components/common/Footer";
-import Cart from "./components/cart/Cart";
-import Home from "./pages/Home";
-import Books from "./pages/Books";
-import Profile from "./pages/Profile";
-import BookDetails from "./pages/BookDetails";
 import { NotificationProvider } from "./contexts/NotificationContext";
-import NotificationContainer from "./components/common/NotificationContainer"; // 👈 Agregar este import
+import BookDetails from "./pages/BookDetails";
+import Books from "./pages/Books";
+import Cart from "./components/cart/Cart";
+import Footer from "./components/common/Footer";
+import Header from "./components/common/Header";
+import Home from "./pages/Home";
+import NotificationContainer from "./components/common/NotificationContainer"; 
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
               </Routes>
             </main>
-            <NotificationContainer /> {/* 👈 Agregar esta línea */}
+            <NotificationContainer />
           </div>
           <Footer />
         </Router>

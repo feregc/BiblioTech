@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { booksData } from '../data/booksData';
-import { useCartContext } from '../contexts/CartContext'; // Cambio aquí
+import { useCartContext } from '../contexts/CartContext'; 
 import Modal from '../components/common/Modal';
 
 const BookDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { addToCart } = useCartContext(); // Cambio aquí
+  const { addToCart } = useCartContext();
   const [book, setBook] = useState(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('description');

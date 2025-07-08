@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useCartContext } from '../contexts/CartContext';
-import { useNotification } from '../contexts/NotificationContext'; // Nuevo import
+import { useNotification } from '../contexts/NotificationContext';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 import Modal from '../components/common/Modal';
 
