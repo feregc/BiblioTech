@@ -96,7 +96,7 @@ const AdvancedFilters = ({ filters, onFiltersChange, onReset }) => {
         </div>
 
         <div className="filter-group">
-          <label className="filter-group__label">Rango de Precio (€)</label>
+          <label className="filter-group__label">Rango de Precio ($)</label>
           <div className="filter-group__range">
             <input
               type="number"

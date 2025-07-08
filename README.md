@@ -1,8 +1,13 @@
-# React + Vite
+# BiblioTech
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El siguiente proyecto es correspondiente a la primera actividad de la asignatura Desarrollo Web Integral, para la maestría Ingeniería de Software y Sistemas Informáticos, en la Universidad de la Rioja (UNIR).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La asignación consiste en en la realización de un Front-End totalmente funcional que simulace una tineda en línea en este caso una librería, en la que se pueden realizar diferentes acciones tales como:
+- Comprar Libros.
+- Alquilar Libros.
+- Extender el tiempo de alquiler de un libro.
+- Busqueda de los libros de dos formas:
+    - Sencilla: por nombre del libro, autor, isbn, entre otros.
+    - Avanzada: con la opción de filtrar por categoría, idioma, editorial, rango de precio, calificación mínima y disponibilidad.
+- Añadir o Eliminar libros del carrito.
+- Visualización de estado de alquiler del libro en el apartado de Perfil.
