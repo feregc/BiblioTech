@@ -150,9 +150,9 @@ const Profile = () => {
           className={`profile__tab ${activeTab === 'current' ? 'profile__tab--active' : ''}`}
           onClick={() => handleTabChange('current')}
         >
-          Alquileres Activos
+          Alquileres Activos 
           {currentRentals.length > 0 && (
-            <span className="profile__tab-badge">{currentRentals.length}</span>
+            <span className="profile__tab-badge"> ({currentRentals.length})</span>
           )}
         </button>
         <button
@@ -161,7 +161,7 @@ const Profile = () => {
         >
           Compras
           {purchaseHistory.length > 0 && (
-            <span className="profile__tab-badge">{purchaseHistory.length}</span>
+            <span className="profile__tab-badge"> ({purchaseHistory.length})</span>
           )}
         </button>
         <button

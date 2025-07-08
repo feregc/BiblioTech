@@ -5,6 +5,8 @@ import { useNotification } from '../../contexts/NotificationContext'; // Nuevo i
 import Modal from '../common/Modal';
 
 const BookCard = ({ book }) => {
+  console.log(book);
+  
   const { addToCart } = useCartContext();
   const { addNotification } = useNotification(); // Nuevo hook
   const [showRentModal, setShowRentModal] = useState(false);
@@ -85,7 +87,7 @@ const BookCard = ({ book }) => {
       <div className="book-card">
         <div className="book-card__image-container">
           <img 
-            src={book.image || '/images/default-book.jpg'} 
+            src={book.image} 
             alt={book.title}
             className="book-card__image"
           />
@@ -107,8 +109,8 @@ const BookCard = ({ book }) => {
           </div>
           
           <div className="book-card__price">
-            <span className="book-card__price-buy">Comprar: €{book.price}</span>
-            <span className="book-card__price-rent">Alquilar: €{(book.price * 0.1).toFixed(2)}/día</span>
+            <span className="book-card__price-buy">Comprar: ${book.price}</span>
+            <span className="book-card__price-rent">Alquilar: ${(book.price * 0.1).toFixed(2)}/día</span>
           </div>
           
           <div className="book-card__actions">

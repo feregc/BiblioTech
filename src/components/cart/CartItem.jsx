@@ -54,8 +54,8 @@ const CartItem = ({ item }) => {
       </div>
       
       <div className="cart-item__price">
-        <span className="cart-item__price-unit">€{itemPrice.toFixed(2)}</span>
-        <span className="cart-item__price-total">€{totalPrice.toFixed(2)}</span>
+        <span className="cart-item__price-unit">${itemPrice.toFixed(2)}</span>
+        <span className="cart-item__price-total">${totalPrice.toFixed(2)}</span>
       </div>
       
       <button

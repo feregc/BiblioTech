@@ -13,6 +13,16 @@ const Books = () => {
     updateFilters({ search: searchTerm });
   };
 
+  const toggleFilters = () => {
+    setShowFilters(!showFilters);
+  };
+
+  // Verificar si hay filtros activos (además de search)
+  const hasActiveFilters = Object.keys(filters).some(key => 
+    key !== 'search' && filters[key] && 
+    (Array.isArray(filters[key]) ? filters[key].length > 0 : filters[key] !== '')
+  );
+
   return (
     <div className="books-page">
       <div className="books-page__header">
@@ -25,16 +35,32 @@ const Books = () => {
       <div className="books-page__search">
         <SearchBar onSearch={handleSearch} initialValue={filters.search} />
         <button 
-          className="books-page__filter-toggle"
-          onClick={() => setShowFilters(!showFilters)}
+          className={`books-page__filter-toggle ${
+            hasActiveFilters ? 'books-page__filter-toggle--active' : ''
+          }`}
+          onClick={toggleFilters}
+          aria-expanded={showFilters}
+          aria-label={`${showFilters ? 'Ocultar' : 'Mostrar'} filtros avanzados`}
         >
+          <span aria-hidden="true">
+            {showFilters ? '🔼' : '🔽'}
+          </span>
           {showFilters ? 'Ocultar' : 'Mostrar'} Filtros
+          {hasActiveFilters && !showFilters && (
+            <span className="books-page__filter-indicator" aria-label="Filtros activos">
+              ●
+            </span>
+          )}
         </button>
       </div>
 
-      <div className="books-page__content">
+      <div className={`books-page__content ${loading ? 'books-page__content--loading' : ''}`}>
         {showFilters && (
-          <aside className="books-page__filters">
+          <aside 
+            className="books-page__filters"
+            role="complementary"
+            aria-label="Filtros de búsqueda"
+          >
             <AdvancedFilters
               filters={filters}
               onFiltersChange={updateFilters}
@@ -43,7 +69,7 @@ const Books = () => {
           </aside>
         )}
 
-        <main className="books-page__main">
+        <main className="books-page__main" role="main">
           {loading ? (
             <Loading message="Cargando catálogo..." />
           ) : (

@@ -107,11 +107,11 @@ const BookDetails = () => {
           <div className="book-details__pricing">
             <div className="book-details__price-item">
               <span className="book-details__price-label">Comprar:</span>
-              <span className="book-details__price-value">€{book.price}</span>
+              <span className="book-details__price-value">${book.price}</span>
             </div>
             <div className="book-details__price-item">
               <span className="book-details__price-label">Alquilar:</span>
-              <span className="book-details__price-value">€{(book.price * 0.1).toFixed(2)}/día</span>
+              <span className="book-details__price-value">${(book.price * 0.1).toFixed(2)}/día</span>
             </div>
           </div>
 
@@ -211,7 +211,7 @@ const BookDetails = () => {
           </div>
           
           <div className="rent-modal__total">
-            <strong>Total: €{(book.price * 0.1 * rentDays).toFixed(2)}</strong>
+            <strong>Total: ${(book.price * 0.1 * rentDays).toFixed(2)}</strong>
           </div>
           
           <div className="rent-modal__actions">
@@ -269,7 +269,7 @@ const BookDetails = () => {
           </div>
           
           <div className="purchase-modal__total">
-            <strong>Total: €{book.price}</strong>
+            <strong>Total: ${book.price}</strong>
           </div>
           
           <div className="purchase-modal__actions">

@@ -13,7 +13,7 @@ export const booksData = [
     available: true,
     rating: 4.5,
     description: "La obra maestra de la literatura española que narra las aventuras de un hidalgo manchego que enloquece leyendo novelas de caballerías.",
-    image: "/images/quijote.jpg",
+    image: "https://www.plutonediciones.com/site/wp-content/uploads/2022/04/Don-Quijote.jpg",
     price: 15.99
   },
   {
@@ -29,7 +29,7 @@ export const booksData = [
     available: true,
     rating: 4.7,
     description: "Una novela romántica que explora temas de amor, reputación y clase social en la Inglaterra del siglo XIX.",
-    image: "/images/orgullo-prejuicio.jpg",
+    image: "https://editorialverbum.es/wp-content/uploads/2016/11/orgulloyprejuicio.jpg",
     price: 13.99
   },
   {
@@ -45,7 +45,7 @@ export const booksData = [
     available: true,
     rating: 4.6,
     description: "Una distopía que presenta un mundo totalitario donde el Gran Hermano controla cada aspecto de la vida.",
-    image: "/images/1984.jpg",
+    image: "https://lalibroteca.hn/cdn/shop/files/image_2d2240c3-7e2c-40bd-aa31-edb0c2a9da9e.jpg?v=1691530691",
     price: 14.99
   },
 
@@ -63,7 +63,7 @@ export const booksData = [
     available: true,
     rating: 4.8,
     description: "Una saga familiar que narra la historia de los Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo.",
-    image: "/images/cien-anos.jpg",
+    image: "https://lalibroteca.hn/cdn/shop/files/FullSizeRender_06995c10-fb42-4ab1-97ba-e9057b11cf7d.jpg?v=1698182074",
     price: 12.99
   },
   {
@@ -79,7 +79,7 @@ export const booksData = [
     available: true,
     rating: 4.5,
     description: "La saga de la familia del Valle a través de tres generaciones de mujeres.",
-    image: "/images/casa-espiritus.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFNk1HQINHkr7lAt8f1GJETwXDcrPSBR2KA&s",
     price: 11.99
   },
   {
@@ -95,7 +95,7 @@ export const booksData = [
     available: true,
     rating: 4.3,
     description: "Una novela que combina recetas de cocina con una historia de amor prohibido.",
-    image: "/images/agua-chocolate.jpg",
+    image: "https://www.metromedia.hn/web/image/product.template/274997/image",
     price: 10.99
   },
 
@@ -113,7 +113,7 @@ export const booksData = [
     available: true,
     rating: 4.6,
     description: "Una épica de ciencia ficción ambientada en un futuro lejano donde las casas nobles luchan por el control del desierto planeta Arrakis.",
-    image: "/images/dune.jpg",
+    image: "https://prodimage.images-bn.com/pimages/9780441013593_p0_v7_s600x595.jpg",
     price: 16.99
   },
   {
@@ -129,7 +129,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "La primera novela de la serie que narra la caída y renacimiento de un imperio galáctico.",
-    image: "/images/fundacion.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXg68q4MTtK3tRDMYdL0gXBq9eXcpCOFho7g&s",
     price: 13.99
   },
   {
@@ -145,7 +145,7 @@ export const booksData = [
     available: false,
     rating: 4.5,
     description: "Un niño genio es entrenado para liderar la humanidad en una guerra contra una raza alienígena.",
-    image: "/images/ender.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2rAOs7vZNapSdvaZR0v7aziww9JOHwPTVw&s",
     price: 14.99
   },
 
@@ -163,7 +163,7 @@ export const booksData = [
     available: true,
     rating: 4.3,
     description: "Una novela de misterio ambientada en un monasterio medieval donde ocurren una serie de muertes misteriosas.",
-    image: "/images/nombre-rosa.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoUfWbXfxatOOXAUkFKSdZ0jkDhL1FosyI1g&s",
     price: 15.99
   },
   {
@@ -179,7 +179,7 @@ export const booksData = [
     available: true,
     rating: 4.2,
     description: "Considerado el primer relato de detectives de la literatura, presenta al detective Auguste Dupin.",
-    image: "/images/morgue.jpg",
+    image: "https://image.cdn0.buscalibre.com/60e394ef8463b5f3158b8262.RS500x500.jpg",
     price: 8.99
   },
   {
@@ -195,7 +195,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "Sherlock Holmes investiga la maldición que acecha a la familia Baskerville.",
-    image: "/images/baskerville.jpg",
+    image: "https://images.cdn2.buscalibre.com/fit-in/360x360/e0/bf/e0bf38c99b8f2cb0d3a66cc1147f4dab.jpg",
     price: 12.99
   },
 
@@ -213,7 +213,7 @@ export const booksData = [
     available: true,
     rating: 4.5,
     description: "Una historia de amor que cambia la vida de dos personas completamente diferentes.",
-    image: "/images/yo-antes-ti.jpg",
+    image: "https://metromedia.hn/web/image/product.template/270684/image",
     price: 13.99
   },
   {
@@ -229,7 +229,7 @@ export const booksData = [
     available: true,
     rating: 4.3,
     description: "Una joven modista se ve envuelta en el mundo del espionaje durante la Segunda Guerra Mundial.",
-    image: "/images/tiempo-costuras.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_tHZfsuC1PVgyiSW6ym6gTY5cPd_Po8V3w&s",
     price: 14.99
   },
   {
@@ -245,7 +245,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "Una enfermera de la Segunda Guerra Mundial viaja en el tiempo a la Escocia del siglo XVIII.",
-    image: "/images/outlander.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYS7aLKbD59AW-0ehmCYCa6vsIiVEz99hOCA&s",
     price: 15.99
   },
 
@@ -263,7 +263,7 @@ export const booksData = [
     available: true,
     rating: 4.6,
     description: "Una breve historia de la humanidad desde la aparición del Homo sapiens hasta la actualidad.",
-    image: "/images/sapiens.jpg",
+    image: "https://lalibroteca.hn/cdn/shop/files/37D33EA8-8FED-49B3-9B89-42E4E75CB06E.png?v=1700060645",
     price: 17.99
   },
   {
@@ -279,7 +279,7 @@ export const booksData = [
     available: true,
     rating: 4.7,
     description: "Una épica histórica ambientada en la Inglaterra medieval del siglo XII.",
-    image: "/images/pilares-tierra.jpg",
+    image: "https://m.media-amazon.com/images/I/81BoyKhGJPL._UF894,1000_QL80_.jpg",
     price: 18.99
   },
   {
@@ -295,7 +295,7 @@ export const booksData = [
     available: true,
     rating: 4.5,
     description: "La historia de un joven inglés que viaja al Oriente para estudiar medicina en el siglo XI.",
-    image: "/images/medico.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQqQhd6IPoyV1cEUeZh1EzqZ1q-uvZM8nDQ&s",
     price: 16.99
   },
 
@@ -313,7 +313,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "La biografía autorizada del cofundador de Apple, basada en más de cuarenta entrevistas.",
-    image: "/images/steve-jobs.jpg",
+    image: "https://www.metromedia.hn/web/image/product.template/223989/image",
     price: 19.99
   },
   {
@@ -329,7 +329,7 @@ export const booksData = [
     available: true,
     rating: 4.3,
     description: "La vida y obra de la icónica artista mexicana, explorando su arte y su tumultuosa vida personal.",
-    image: "/images/frida.jpg",
+    image: "https://m.media-amazon.com/images/I/81U4BqO47PL._UF1000,1000_QL80_.jpg",
     price: 16.99
   },
   {
@@ -345,7 +345,7 @@ export const booksData = [
     available: false,
     rating: 4.5,
     description: "Un retrato íntimo del genio renacentista basado en miles de páginas de sus cuadernos.",
-    image: "/images/leonardo.jpg",
+    image: "https://m.media-amazon.com/images/I/91r60mVr4bL._UF1000,1000_QL80_.jpg",
     price: 20.99
   },
 
@@ -363,7 +363,7 @@ export const booksData = [
     available: true,
     rating: 4.2,
     description: "Un tratado militar chino sobre estrategia y táctica que ha influido en el pensamiento estratégico.",
-    image: "/images/arte-guerra.jpg",
+    image: "https://lalibroteca.hn/cdn/shop/files/C5-El-arte-de-la-guerra.jpg?v=1744563213",
     price: 9.99
   },
   {
@@ -379,7 +379,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "Una serie de cartas con consejos sobre la vida, el amor y la vocación artística.",
-    image: "/images/cartas-poeta.jpg",
+    image: "https://m.media-amazon.com/images/I/81bsR3m3+9L._UF1000,1000_QL80_.jpg",
     price: 8.99
   },
   {
@@ -395,7 +395,7 @@ export const booksData = [
     available: true,
     rating: 4.3,
     description: "Una exploración de los dos sistemas que rigen cómo pensamos y tomamos decisiones.",
-    image: "/images/pensar-rapido.jpg",
+    image: "https://lalibroteca.hn/cdn/shop/products/pensarrapidopensardespaciofrontopt.jpg?v=1658012032",
     price: 18.99
   },
 
@@ -413,7 +413,7 @@ export const booksData = [
     available: true,
     rating: 4.6,
     description: "Una de las obras más emblemáticas de la poesía amorosa en lengua española.",
-    image: "/images/neruda.jpg",
+    image: "https://m.media-amazon.com/images/I/61Q16MUBN5L.jpg",
     price: 10.99
   },
   {
@@ -429,7 +429,7 @@ export const booksData = [
     available: true,
     rating: 4.4,
     description: "Una colección de poemas que celebra la naturaleza, el amor y la democracia americana.",
-    image: "/images/hojas-hierba.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNM7i05uf6kdsRydRcUu4CH0gG729Ch8_Jw&s",
     price: 12.99
   },
   {
@@ -445,7 +445,7 @@ export const booksData = [
     available: true,
     rating: 4.5,
     description: "Una selección de los mejores poemas del gran poeta andaluz.",
-    image: "/images/lorca.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-MuqYRVTagnO3A8FQFX7yM1OHAwEAHBsu_Q&s",
     price: 11.99
   }
 ];
